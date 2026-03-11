@@ -14,7 +14,7 @@ from sklearn.model_selection import GridSearchCV
 nltk.download('stopwords', quiet=True)
 
 # 1. LOADING THE DATA
-df = pd.read_csv("emails.csv")
+df = pd.read_csv("data/emails.csv")
 
 # 2. PREPROCESSING
 df.drop_duplicates(inplace=True)
